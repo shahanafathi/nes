@@ -1,0 +1,13 @@
+a=[]
+b=[]
+
+n=int(input("enter your range : "))
+for i in range(n):
+    x=int(input("enter your numbers : "))
+    a.append(x)
+t=sum(a)
+for j in a:
+    
+    c=t-j
+    b.append(c)
+print(b)
