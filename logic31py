@@ -1,0 +1,21 @@
+a=[]
+n=int(input("enter yor range : "))
+for i in range(n):
+    f=int(input("enter your number : "))
+    a.append(f)
+    a.sort()
+    len(a)
+    l=max(a)
+i=0
+while i < 0:
+    if 0 < a[i]<=n and [a[i]-1]!=a[i]:
+        t=a[a[i] - 1]
+        a[a[i] - 1] = a[i]
+        a[i] = t
+    else :
+        i+=1
+for i in range(n):
+    if a[i]!=[i+1]:
+        print("",i+1)
+    # else:
+    #     print(f"{i-1}")
