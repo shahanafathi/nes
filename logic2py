@@ -7,7 +7,6 @@ for i in range(n):
     a.append(x)
 t=sum(a)
 for j in a:
-    
     c=t-j
     b.append(c)
 print(b)
